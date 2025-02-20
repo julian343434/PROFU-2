@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Controllers" />
+        <module name="Controllers (1) (com.arquitectura-software)" />
+        <module name="App1Entities" />
+        <module name="App1UseCases" />
+        <module name="h2data (1)" />
+        <module name="componentesCapas" />
+        <module name="Ejemplo3-ComponentesPaquetes-RomperCiclo" />
+        <module name="App1" />
+        <module name="database" />
+        <module name="h2data" />
+        <module name="InicioMain" />
+        <module name="Ejemplo3-ComponentesPaquetes-RomperCiclo (2)" />
+        <module name="database (1)" />
+        <module name="App1ViewCases" />
+        <module name="persistence" />
+        <module name="App1UseCases (1) (com.arquitectura-software)" />
+        <module name="App1DTO" />
+        <module name="persistence (1)" />
+        <module name="App1Entities (1) (com.arquitectura-software)" />
+        <module name="App1DTO (1) (com.arquitectura-software)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

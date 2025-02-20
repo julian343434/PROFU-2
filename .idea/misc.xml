@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Ruben/TareaPaquetes/Ejemplo3-ComponentesPaquetes-RomperCiclo/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/terceraentrega/terceraentrega/Ejemplo3-ComponentesPaquetes-RomperCiclo-Componentes/Ejemplo3-ComponentesPaquetes-RomperCiclo-Componentes/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/componentesCapas/componentesCapas/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea1 Componentes/Ejemplo3-ComponentesPaquetes-RomperCiclo/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/h2data/h2data/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/h2data/database/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/h2data/persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/App1/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/h2data/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/App1DTO/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/database/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/Controllers/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/App1Entities/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/App1UseCases/pom.xml" />
+        <option value="$PROJECT_DIR$/Ruben/Tarea 1-2 Componentes/Componenetes/Componentes taller/App1ViewCases/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
