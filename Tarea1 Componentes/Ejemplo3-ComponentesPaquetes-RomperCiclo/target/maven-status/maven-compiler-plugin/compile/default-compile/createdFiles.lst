@@ -1,0 +1,15 @@
+DTO\PersonaDTO.class
+Entities\Permisos.class
+View\UseCases\ListarPersonaView.class
+InteractorsUseCases\CrearPersonaUseCase.class
+InteractorsUseCases\ListarPersonasUseCase.class
+DataBase\ConnectDataBase.class
+Authorizer\Permissions.class
+View\UseCases\CrearPersonaView.class
+DataBase\PersonaDAO.class
+InicioMain\InicioAplicacion.class
+InteractorsUseCases\CrearPersona.class
+InteractorsUseCases\ListarPersonas.class
+Entities\Persona.class
+Controllers\ControllerUseCase1.class
+Factories\UseCaseFactory.class

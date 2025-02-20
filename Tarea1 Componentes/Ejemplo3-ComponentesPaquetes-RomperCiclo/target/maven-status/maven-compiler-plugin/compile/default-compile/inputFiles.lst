@@ -1,0 +1,15 @@
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\Authorizer\Permissions.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\Entities\Permisos.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\DataBase\PersonaDAO.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\InicioMain\InicioAplicacion.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\InteractorsUseCases\CrearPersona.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\InteractorsUseCases\ListarPersonasUseCase.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\Entities\Persona.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\Factories\UseCaseFactory.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\InteractorsUseCases\ListarPersonas.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\InteractorsUseCases\CrearPersonaUseCase.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\DataBase\ConnectDataBase.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\View\UseCases\CrearPersonaView.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\View\UseCases\ListarPersonaView.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\Controllers\ControllerUseCase1.java
+C:\Users\PYKE\Documents\TRABAJOS\9° Semestre\Profundizacion Software\Ejemplo3-ComponentesPaquetes-RomperCiclo\src\main\java\DTO\PersonaDTO.java

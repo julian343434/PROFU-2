@@ -1,0 +1,27 @@
+-- Crear la tabla programas
+CREATE TABLE programas (
+id SERIAL PRIMARY KEY,
+nombre TEXT
+);
+
+-- Crear la tabla estudiantes
+CREATE TABLE estudiantes (
+id SERIAL PRIMARY KEY,
+nombres TEXT,
+apellidos TEXT
+);
+
+-- Crear la tabla cursos
+CREATE TABLE cursos (
+id SERIAL PRIMARY KEY,
+nombre TEXT,
+semestre INTEGER,
+programa_id INTEGER REFERENCES programas(id) ON DELETE CASCADE
+);
+
+-- Crear la tabla estudiante_curso
+CREATE TABLE estudiante_curso (
+id SERIAL PRIMARY KEY,
+estudiante_id INTEGER REFERENCES estudiantes(id) ON DELETE CASCADE,
+curso_id INTEGER REFERENCES cursos(id) ON DELETE CASCADE
+);
