@@ -1,23 +1,26 @@
-# Imagen base con Maven y JDK 17
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+# Usar una imagen oficial de Maven con JDK 17 para la compilación
+FROM maven:3.8.6-eclipse-temurin-17 AS build
 
-# Establecer directorio de trabajo
+# Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
 # Copiar los archivos del proyecto
-COPY Tarea2/ ./Tarea2/
+COPY RomperCiclos-Tarea/ . 
 
-# Compilar el proyecto y empaquetar con dependencias
-RUN mvn -f Tarea2/pom.xml clean package -DskipTests
+# Compilar el proyecto y generar el JAR con dependencias
+RUN mvn clean package -DskipTests -pl InicioMain -am
 
-# Segunda etapa: Imagen ligera con solo JDK para ejecución
+# Usar una imagen más ligera con JDK para ejecutar la aplicación
 FROM eclipse-temurin:17-jdk
 
-# Establecer directorio de trabajo
+# Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
 
-# Copiar el JAR compilado desde la etapa anterior
-COPY --from=build /app/Tarea2/App2/target/App2-1.0-SNAPSHOT-jar-with-dependencies.jar app.jar
+# Copiar el JAR generado desde la etapa anterior
+COPY --from=build /app/InicioMain/target/InicioMain-1.0-SNAPSHOT-jar-with-dependencies.jar /app/app.jar
 
-# Comando de ejecución
-CMD ["java", "-jar", "app.jar"]
+# Exponer el puerto en el que corre la aplicación
+EXPOSE 8080
+
+# Ejecutar la aplicación
+CMD ["java", "-jar", "/app/app.jar"]
