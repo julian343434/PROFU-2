@@ -22,6 +22,5 @@ COPY --from=build /app/InicioMain/target/InicioMain-1.0-SNAPSHOT-jar-with-depend
 # Exponer el puerto en el que corre la aplicación
 EXPOSE 8080
 
-
 # Ejecutar la aplicación
 CMD ["java", "-jar", "/app/app.jar"]
