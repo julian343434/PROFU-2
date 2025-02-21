@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 PROFU-2
 
 **PROFU-2** es un proyecto desarrollado en Java con Maven, preparado para ejecutarse dentro de un contenedor Docker. Este repositorio incluye la configuración necesaria para compilar y ejecutar la aplicación de manera eficiente.
@@ -55,3 +56,7 @@ PROFU-2/
 
 📌 **¡Listo para desplegar y probar!** 🚀
 
+=======
+docker build -t tarea2-app . 
+docker run --rm -it tarea2-app
+>>>>>>> tarea2
