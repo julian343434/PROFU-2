@@ -13,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2tI0DajiMvdwjemwXGTd4w5MO0R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "tarea1",
+    "git-widget-placeholder": "tarea2",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/LENOVO/Downloads/Tarea1 Componentes/Ejemplo3-ComponentesPaquetes-RomperCiclo",
@@ -54,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1740024165371</updated>
       <workItem from="1740024166942" duration="336000" />
+      <workItem from="1740118874264" duration="673000" />
     </task>
     <servers />
   </component>
