@@ -1,7 +1,6 @@
 package controlador;
 
-import vistaConsola.Consola;
-import vistaEscritorio.IGU;
+import logicaNegocio.Servicio;
 import fachada.Fachada;
 
 public class Controlador {
