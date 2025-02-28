@@ -1,0 +1,20 @@
+# MySQL Custom Docker Image
+
+Este proyecto crea una imagen personalizada de Docker para MySQL con una configuración básica. Usamos la imagen oficial de MySQL y la configuramos para usar un puerto distinto (3307) y establecer las variables de entorno necesarias (como contraseñas y base de datos).
+
+## Requisitos
+
+- Docker (versión 20.10 o superior)
+- Un archivo `.env` con las variables de entorno necesarias para la configuración de MySQL.
+
+## Pasos para construir y ejecutar la imagen
+
+### 1. Construir la imagen
+
+Para construir la imagen personalizada de MySQL desde el `Dockerfile`, ejecuta el siguiente comando:
+
+```bash
+sudo docker build -t my-custom-mysql .
+
+```bash
+sudo docker run --env-file .env -d -p 3307:3307 --name mysql-container my-custom-mysql
