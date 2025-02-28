@@ -13,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Unikyri"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/julian343434/PROFU-2.git",
+    "accountId": "b2132f47-8302-454f-ab3f-038ae4f4c4d0"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -25,10 +37,10 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "tarea2",
+    "git-widget-placeholder": "ejercicio3",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/LENOVO/Downloads/Tarea1 Componentes/Ejemplo3-ComponentesPaquetes-RomperCiclo",
+    "last_opened_file_path": "/home/daikyri/Documentos/Profu2/Tarea-2/Tarea - 2/PROFU-2/Capas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +67,7 @@
       <updated>1740024165371</updated>
       <workItem from="1740024166942" duration="336000" />
       <workItem from="1740118874264" duration="673000" />
+      <workItem from="1740710028364" duration="21000" />
     </task>
     <servers />
   </component>

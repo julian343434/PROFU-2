@@ -1,6 +1,6 @@
 package vistaEscritorio;
 
-import Inicio.main;
+import controlador.Controlador;
 
 public class IGU {
 }

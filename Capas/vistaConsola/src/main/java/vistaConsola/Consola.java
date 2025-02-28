@@ -1,6 +1,5 @@
 package vistaConsola;
 
-import  Inicio.main;
-
+import  controlador.Controlador;
 public class Consola {
 }
