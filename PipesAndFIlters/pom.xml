@@ -17,6 +17,9 @@
         <module>ID6-EncriptarTextoSha256</module>
         <module>ID7-BuscarPalabra</module>
         <module>ID8-ListarPalabrasRecurrentes</module>
+        <module>Central</module>
+        <module>Fabrica</module>
+        <module>Main</module>
     </modules>
 
     <properties>
