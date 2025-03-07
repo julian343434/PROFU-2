@@ -27,11 +27,11 @@ public class CargarArchivoDeTexto implements Filtro {
         }
 
 
-        File outputDir = new File("/home/daikyri/Documentos/Profu2/Tarea-3/PROFU-2/PipesAndFIlters/ID1-CargarArchivoTexto/src/main/resources/Out");
+        File outputDir = new File("target/classes/Out");
         if (!outputDir.exists()) {
             outputDir.mkdirs();
         }
-        File outputFile = new File(outputDir, "output_" + inputFile.getName());
+        File outputFile = new File(outputDir, "outputID1");
 
         try (
                 BufferedReader reader = new BufferedReader(new FileReader(inputFile));
