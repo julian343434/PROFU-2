@@ -42,7 +42,7 @@ public class InputHandler {
         String filePath = scanner.nextLine().trim();
         File file = validateFile(filePath.isEmpty() ? DEFAULT_INPUT_PATH : filePath);
 
-        System.out.print("Ingresa la secuencia de filtros: ");
+        System.out.print("Ingresa la secuencia de filtros (Ejemplo: 245): ");
         String sequence = validateSequence(scanner.nextLine().trim());
 
         String findParam = null;
