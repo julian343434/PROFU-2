@@ -1,12 +1,10 @@
-package ID5;
-
+package ID8;
 
 import Tuberias.Filtro;
 
 import java.io.*;
-import java.util.Base64;
 
-public class ConvertirArchivoBase64ABinario implements Filtro {
+public class BuscarPalabraEnArchivoTexto implements Filtro {
     public static void main(String[] args) {
         try (
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -24,36 +22,40 @@ public class ConvertirArchivoBase64ABinario implements Filtro {
                 return;
             }
 
-            File outputFile = new ConvertirArchivoBase64ABinario().processFile(inputFile);
+            File outputFile = new BuscarPalabraEnArchivoTexto().processFile(inputFile);
 
-            writer.println(outputFile.getAbsolutePath());
+            if (outputFile == null) {
+                System.out.println("Terminado");
+            }else{
+                writer.println(outputFile.getAbsolutePath());
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
     public File processFile(File inputFile) throws IOException {
-        File outputFile = new File("base64_to_binary" + inputFile.getName()  );
+        String palabra = "hola";
+        try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
+            String linea;
+            int numeroLinea = 1;
+            boolean encontrada = false;
 
-        try (
-                BufferedReader reader = new BufferedReader(new FileReader(inputFile));
-                FileOutputStream fos = new FileOutputStream(outputFile)
-        ) {
-            StringBuilder base64Content = new StringBuilder();
-            String line;
-            while ((line = reader.readLine()) != null) {
-                base64Content.append(line);
+            while ((linea = br.readLine()) != null) {
+                if (linea.contains(palabra)) {
+                    System.out.println("Palabra encontrada en la línea " + numeroLinea + ": " + linea);
+                    encontrada = true;
+                }
+                numeroLinea++;
             }
 
-            byte[] binaryData = Base64.getDecoder().decode(base64Content.toString());
-
-            fos.write(binaryData);
+            if (!encontrada) {
+                System.out.println("La palabra \"" + palabra + "\" no se encontró en el archivo.");
+            }
         } catch (IOException e) {
             e.printStackTrace();
-            return null;
         }
-
-        return outputFile;
+        return null;
     }
 
     @Override
