@@ -3,7 +3,10 @@ package ID6;
 import Tuberias.Filtro;
 
 import java.io.*;
+<<<<<<< HEAD
 import java.security.DigestException;
+=======
+>>>>>>> 7de4c126a7859e53f174ac2a99c155e050de29c3
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
@@ -33,8 +36,18 @@ public class EncriptarArchivoTextoSHA256 implements Filtro {
         }
     }
 
+<<<<<<< HEAD
     public File processFile(File inputFile) throws IOException {
         File outputFile = new File("encrypted_" + inputFile.getName());
+=======
+    @Override
+    public File processFile(File inputFile) throws IOException {
+        File outputDir = new File("target/classes/Out");
+        if (!outputDir.exists()) {
+            outputDir.mkdirs();
+        }
+        File outputFile = new File(outputDir, "TextoSHA256");
+>>>>>>> 7de4c126a7859e53f174ac2a99c155e050de29c3
 
         try (InputStream fis = new FileInputStream(inputFile);
              OutputStream fos = new FileOutputStream(outputFile)) {
@@ -56,8 +69,12 @@ public class EncriptarArchivoTextoSHA256 implements Filtro {
             }
 
             fos.write(System.lineSeparator().getBytes());
+<<<<<<< HEAD
         }
         catch (IOException | NoSuchAlgorithmException e) {
+=======
+        } catch (IOException | NoSuchAlgorithmException e) {
+>>>>>>> 7de4c126a7859e53f174ac2a99c155e050de29c3
             System.err.println("Error de entrada/salida al procesar el archivo.");
             e.printStackTrace();
         }
@@ -66,6 +83,12 @@ public class EncriptarArchivoTextoSHA256 implements Filtro {
 
     @Override
     public String getID() {
+<<<<<<< HEAD
         return "";
     }
 }
+=======
+        return "6";
+    }
+}
+>>>>>>> 7de4c126a7859e53f174ac2a99c155e050de29c3

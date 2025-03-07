@@ -1,0 +1,21 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Vivamus sit amet urna ut erat facilisis mollis.
+Sed cursus, mi non pulvinar convallis, magna elit vestibulum dui, nec ultricies nibh sapien non nibh.
+
+Program testers enjoy applying multiple filters:
+- Este archivo se usará para:
+    1. Cargar y leer el texto (ID1).
+    2. Convertir el texto a un formato binario (ID2).
+    3. Reconstruir el texto desde el binario (ID3).
+    4. Convertir el binario a Base64 (ID4).
+    5. Recuperar el binario desde Base64 (ID5).
+    6. Aplicar encriptación SHA256 al contenido del texto (ID6).
+    7. Buscar palabras específicas en el texto (ID7).
+    8. Listar la frecuencia de palabras (ID8).
+
+The quick brown fox jumps over the lazy dog.
+Test, test, TEST: este es un test para contar palabras y validar el filtro de búsqueda.
+Filter, filter, FILTER: se repetirá para ver la frecuencia de cada palabra.
+En esta línea se incluyen números: 1234567890 y símbolos: !@#$%^&*() para comprobar el manejo de caracteres especiales.
+
+Fin del archivo de pruebas.

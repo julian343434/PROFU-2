@@ -1,15 +1,12 @@
-package ID5;
+package ID8;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 7de4c126a7859e53f174ac2a99c155e050de29c3
 import Tuberias.Filtro;
 
 import java.io.*;
-import java.util.Base64;
+import java.util.HashMap;
+import java.util.Map;
 
-public class ConvertirArchivoBase64ABinario implements Filtro {
+public class ListarPalabrasFrecuenciaDeOcurrencia implements Filtro {
     public static void main(String[] args) {
         try (
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -27,7 +24,7 @@ public class ConvertirArchivoBase64ABinario implements Filtro {
                 return;
             }
 
-            File outputFile = new ConvertirArchivoBase64ABinario().processFile(inputFile);
+            File outputFile = new ListarPalabrasFrecuenciaDeOcurrencia().processFile(inputFile);
 
             writer.println(outputFile.getAbsolutePath());
         } catch (IOException e) {
@@ -35,32 +32,32 @@ public class ConvertirArchivoBase64ABinario implements Filtro {
         }
     }
 
-<<<<<<< HEAD
-    public File processFile(File inputFile) throws IOException {
-        File outputFile = new File("base64_to_binary" + inputFile.getName()  );
-=======
     @Override
     public File processFile(File inputFile) throws IOException {
         File outputDir = new File("target/classes/Out");
         if (!outputDir.exists()) {
             outputDir.mkdirs();
         }
-        File outputFile = new File(outputDir, "Base64ABinario");
->>>>>>> 7de4c126a7859e53f174ac2a99c155e050de29c3
+        File outputFile = new File(outputDir, "PalabrasFrecuenciaDeOcurrencia");
 
-        try (
-                BufferedReader reader = new BufferedReader(new FileReader(inputFile));
-                FileOutputStream fos = new FileOutputStream(outputFile)
-        ) {
-            StringBuilder base64Content = new StringBuilder();
+        Map<String, Integer> wordCount = new HashMap<>();
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(inputFile));
+             PrintWriter writer = new PrintWriter(new FileWriter(outputFile))) {
+
             String line;
             while ((line = reader.readLine()) != null) {
-                base64Content.append(line);
+                String[] words = line.split("\\W+");
+                for (String word : words) {
+                    if (!word.isEmpty()) {
+                        wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
+                    }
+                }
             }
 
-            byte[] binaryData = Base64.getDecoder().decode(base64Content.toString());
-
-            fos.write(binaryData);
+            for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
+                writer.println(entry.getKey() + ": " + entry.getValue());
+            }
         } catch (IOException e) {
             e.printStackTrace();
             return null;
@@ -71,10 +68,6 @@ public class ConvertirArchivoBase64ABinario implements Filtro {
 
     @Override
     public String getID() {
-<<<<<<< HEAD
-        return "";
-=======
-        return "5";
->>>>>>> 7de4c126a7859e53f174ac2a99c155e050de29c3
+        return "8";
     }
 }
