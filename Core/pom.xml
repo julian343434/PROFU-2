@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>ContratoInterfaces</artifactId>
+            <artifactId>org.example</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
