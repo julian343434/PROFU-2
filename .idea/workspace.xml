@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="144c084a-fc05-4761-a498-ade92e8c9aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ContratoInterfaces/src/main/java/contratos/PluginContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PROFU-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FiltroSepia/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContratoInterfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ContratoInterfaces/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContratoInterfaces/src/main/java/org/example/PluginContract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/org/example/MicroKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/com/core/MicroKernel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/org/example/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/com/core/PluginManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +34,12 @@
     &quot;assignee&quot;: &quot;Unikyri&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/julian343434/PROFU-2.git&quot;,
-    &quot;accountId&quot;: &quot;b2132f47-8302-454f-ab3f-038ae4f4c4d0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:julian343434/PROFU-2.git",
+    "accountId": "b2132f47-8302-454f-ab3f-038ae4f4c4d0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -56,10 +53,11 @@
     "Application.MicroKernel.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "MicroKernel",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/deivid/Downloads/SoftwarePlugins",
+    "last_opened_file_path": "/home/daikyri/Documentos/Profu2/Tarea-4/PROFU-2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,8 +80,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -98,6 +96,7 @@
       <workItem from="1740024166942" duration="336000" />
       <workItem from="1740118874264" duration="673000" />
       <workItem from="1740710028364" duration="21000" />
+      <workItem from="1742440469365" duration="783000" />
     </task>
     <servers />
   </component>

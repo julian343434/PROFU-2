@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/Core/pom.xml" />
         <option value="$PROJECT_DIR$/GrayScalePlugin/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/FiltroSepia/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
