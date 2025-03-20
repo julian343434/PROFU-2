@@ -9,6 +9,7 @@
         <module name="Servicios" />
         <module name="ContratoInterfaces" />
         <module name="DTO" />
+        <module name="FiltroSepia" />
         <module name="Core" />
       </profile>
     </annotationProcessing>
