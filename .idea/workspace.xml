@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="144c084a-fc05-4761-a498-ade92e8c9aec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContratoInterfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/src/main/java/org/example/MicroKernel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/src/main/java/org/example/PluginManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DTO/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Servicios/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PROFU-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContratoInterfaces/src/main/java/contratos/PluginContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContratoInterfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ContratoInterfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContratoInterfaces/src/main/java/org/example/PluginContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/org/example/MicroKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/com/core/MicroKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/org/example/PluginManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/com/core/PluginManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
     "git-widget-placeholder": "MicroKernel",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/deivid/Documents/PROFU-2",
+    "last_opened_file_path": "/home/deivid/Downloads/SoftwarePlugins",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +74,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ContratoInterfaces/src/main/java/com/contratos" />
     </key>
   </component>
   <component name="SharedIndexes">

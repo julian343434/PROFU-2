@@ -1,6 +1,6 @@
-package org.example;
+package com.core;
 
-import example.PluginContract*;
+import contratos.PluginContract;
 
 import java.io.File;
 import java.net.URL;

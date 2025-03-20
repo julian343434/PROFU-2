@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Servicios" />
-        <module name="PROFU-2" />
+        <module name="ContratoInterfaces" />
         <module name="DTO" />
         <module name="Core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="GrayScalePlugin" target="17" />
+      <module name="PROFU-2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package contractPlugins;
+package contratos;
 
 /**
  * Interfaz que define la estructura de un plugin de procesamiento de imágenes.
